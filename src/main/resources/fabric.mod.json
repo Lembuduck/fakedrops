@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "fakedrop",
+  "version": "1.0.0",
+  "name": "FakeDrop",
+  "description": "Client-side visual dropper item.",
+  "environment": "client",
+  "entrypoints": { "client": ["fakedrop.FakeDrop"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "fabric-api": "*" }
+}
